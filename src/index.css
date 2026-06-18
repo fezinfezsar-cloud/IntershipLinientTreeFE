@@ -1,0 +1,103 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Variables */
+
+:root {
+  --bg: #000000;
+  --surface: #0f0f0f;
+  --surface-hover: #1a1a1a;
+
+  --primary: #00ff88;
+  --primary-hover: #00cc6a;
+
+  --success: #00ff88;
+  --danger: #ff4d4d;
+  --warning: #ffcc00;
+
+  --text: #ffffff;
+  --text-muted: #9ca3af;
+
+  --border: #222222;
+}
+
+/* Base Styles */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Links */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Lists */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Buttons */
+
+button {
+  font-family: inherit;
+}
+
+/* Inputs */
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Smooth Scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+}
