@@ -14,9 +14,7 @@ import heroImage from "./assets/hero.png";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 
-const API_BASE =
-  import.meta.env.VITE_PUBLIC_API_BASE ||
-  "http://localhost:3000/habits";
+const API_BASE = "/habits";
 /* =========================
    REUSABLE COMPONENTS
 ========================= */
